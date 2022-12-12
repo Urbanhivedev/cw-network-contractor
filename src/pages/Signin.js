@@ -67,7 +67,7 @@ export default function Signin() {
     dispatch(login(email,password));
     setTimeout(() => {
       window.location.reload()
-  }, 1500);
+  }, 2000);
     
     
    
