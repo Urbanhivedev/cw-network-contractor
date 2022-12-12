@@ -94,9 +94,9 @@ TablePaginationActions.propTypes = {
 };
 
 const originalJobList = [
-    {id: 1, title: 'Java Developer', type: 'FullTime', rate: '$70'},
+    {id: 1, title: 'FIELD CONTRACTOR', type: 'Full Time', rate: '$70'},
     // {id: 2, title: 'MERN Stack Developer', type: 'FullTime', rate: '$50'},
-    {id: 3, title: 'Flutter Developer', type: 'Partime', rate: '$50'},
+    {id: 3, title: 'FIELD CONTRACTOR', type: 'Part Time', rate: '$50'},
     // {id: 4, title: 'Machine Learning Engineer', type: 'FullTime', rate: '$100'},
  ].sort((a, b) => (a.title < b.title ? -1 : 1));
 

@@ -13,11 +13,11 @@ import {
 import Layout from "../components/Layout/layout";
 import { useHistory } from "react-router-dom";
 import RectangleIMG from "../assets/images/Rectangle.png";
-import hardcode1 from "../assets/images/mdliaison3.png";
-import hardcode2 from "../assets/images/mdliaison3.png";
-import hardcode3 from "../assets/images/mdliaison3.png";
-import hardcode4 from "../assets/images/mdliaison3.png";
-import hardcode5 from "../assets/images/mdliaison3.png";
+import hardcode1 from "../assets/images/mdliaisonpic.png";
+import hardcode2 from "../assets/images/mdliaisonpic.png";
+import hardcode3 from "../assets/images/mdliaisonpic.png";
+import hardcode4 from "../assets/images/mdliaisonpic.png";
+import hardcode5 from "../assets/images/mdliaisonpic.png";
 
 import PopupModal from "../components/Layout/modal";
 
@@ -41,11 +41,11 @@ export default function MyJobs() {
   };
 
   const myJobsArr = [
-    {id: 1, title: 'MERN STACK',company:"Intuitive",location:"HOUSTON, TX",logo:hardcode1,},
-    {id: 2, title: 'MERN STACK',company:"CVS",location:"HOUSTON, TX",logo:hardcode2,},
-    {id: 3, title: 'MERN STACK',company:"Uptown Memorial",location:"HOUSTON, TX",logo:hardcode3,},
-    {id: 3, title: 'MERN STACK',company:"Blue Cross",location:"HOUSTON, TX",logo:hardcode4,},
-    {id: 3, title: 'MERN STACK',company:"Kings Cross",location:"HOUSTON, TX",logo:hardcode5,},
+    {id: 1, title: 'MERN STACK',company:"EMPIRE BUILDING",location:"HOUSTON, TX",logo:hardcode1,},
+    {id: 2, title: 'MERN STACK',company:"OXFORD BUILDING",location:"HOUSTON, TX",logo:hardcode2,},
+    {id: 3, title: 'MERN STACK',company:"J & B BUILDERS",location:"HOUSTON, TX",logo:hardcode3,},
+    {id: 3, title: 'MERN STACK',company:"BECHTEL",location:"HOUSTON, TX",logo:hardcode4,},
+    {id: 3, title: 'MERN STACK',company:"EMCOR",location:"HOUSTON, TX",logo:hardcode5,},
   ];
 
  
@@ -74,7 +74,7 @@ export default function MyJobs() {
               <Grid container spacing={1}>
                 <Grid item>
                   <ButtonBase sx={{ width: 128, height: 178, pb: 8 }}>
-                    <img alt="Job-Logo" src={job.logo} />
+                    <img alt="Job-Logo" src={job.logo} style={{ borderRadius:"5%"}} />
                   </ButtonBase>
                 </Grid>
                 <Grid item xs={12} sm container>

@@ -7,7 +7,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { NavLink, useHistory,useParams } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { styled } from '@mui/material/styles';
-import JobLogo from '../assets/images/flutter-thumbnail.png';
+import JobLogo from '../assets/images/mdliaisonpic.png';
 
 /*REDUX AND FIREBASE IMPORTS */
 import { useDispatch, useSelector } from 'react-redux';
@@ -164,7 +164,7 @@ export default function ViewJob() {
               // sx={{ mt: 7, mb: 2 }}
               onClick={() => {history.push('/view-job');}}
             >
-              PHARMACY
+              CONSTRUCTION
             </Button>
             </Grid>
              <Grid item xs={12} md={8} lg={8}>

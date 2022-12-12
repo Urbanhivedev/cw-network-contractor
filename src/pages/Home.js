@@ -98,7 +98,7 @@ export default function Home() {
                   height: 240,
                 }}
               >
-                <HomeBox type={'TRAINING'}  BoxIcon={ModelTrainingIcon}/>
+                <HomeBox type={'KNOWLEDGE BASE'}  BoxIcon={ModelTrainingIcon}/>
               </Paper>
             </Grid>
 
